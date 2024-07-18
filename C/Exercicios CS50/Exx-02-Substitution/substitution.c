@@ -71,7 +71,7 @@ void cryptograph (string argument)
     for (int i = 0; i < strlen(plaintext); i++)
     {
         int index_lower = plaintext[i] - 'a'; // get index from every letter in plaintext in relaction to alphabet
-        int index_upper = plaintext[i] - 'A'; // same but upper
+        int index_upper = plaintext[i] - 'A'; // idk if this is really necessary
 
         if (isupper(plaintext[i]))
         {
